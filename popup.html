@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 200px;
+      padding: 15px;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+    }
+    h3 {
+      margin: 0 0 15px 0;
+      color: #333;
+    }
+    button {
+      background: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    button.off {
+      background: #f44336;
+    }
+    button.off:hover {
+      background: #d32f2f;
+    }
+    #status {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h3> DeepSeek RTL</h3>
+  <button id="toggleBtn">Enable</button>
+  <div id="status">Status: Disabled</div>
+  <script src="popup.js"></script>
+</body>
+</html>
